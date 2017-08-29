@@ -1,0 +1,73 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="iuem20.project">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <includeDependencies package="." />
+
+  <include package=".browser" />
+
+
+  <genericsetup:registerProfile
+      name="default"
+      title="iuem20.project"
+      directory="profiles/default"
+      description="Installs the iuem20.project add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="iuem20.project (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the iuem20.project add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+
+    <browser:page
+      name="view-project"
+      for=".interfaces.IProject"
+      class=".project.ProjectView"
+      template="projectview.pt"
+      permission="zope2.View"
+      />
+
+	<browser:page
+       name="iuem20-project-settings"
+       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+       class=".interfaces.IIuem20ProjectSettingsControlPanel"
+       permission="cmf.ManagePortal"
+    />
+
+   <!-- Add form -->
+   <adapter
+        name="iuem20.project"
+	    for="Products.CMFCore.interfaces.IFolderish
+	         zope.publisher.interfaces.browser.IDefaultBrowserLayer
+	         plone.dexterity.interfaces.IDexterityFTI"
+	    provides="zope.publisher.interfaces.browser.IBrowserPage"
+	    factory=".project.AddView"
+    />
+
+	<class class=".project.AddView">
+	    <require
+	        permission="cmf.AddPortalContent"
+	        interface="zope.publisher.interfaces.browser.IBrowserPage"
+	        />
+	</class>
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="iuem20.project-hiddenprofiles" />
+
+  <utility component=".vocabulary.projectCategories" name="iuem20.projectcategories" />
+</configure>

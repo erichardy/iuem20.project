@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ 
+ <configlet
+    title="Misc configuration parameters for iuem20 projects"
+    action_id="iuem20.project"
+    appId="iuem20.project"
+    category="Products"
+    condition_expr=""
+    url_expr="string:${portal_url}/@@iuem20-project-settings"
+    visible="True" i18n:attributes="title">
+	<permission>Manage portal</permission>
+  </configlet>
+ 
+</object>

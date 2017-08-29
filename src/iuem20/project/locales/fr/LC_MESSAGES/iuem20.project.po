@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: iuem20.project\n"
+
+#: ./project.py:33
+msgid "Add a new project !"
+msgstr "Créer un nouveau projet"
+
+#: ./project.py:55
+msgid "Cancel this project"
+msgstr "Annuler la création de ce projet"
+
+#: ./profiles/default/types/iuem20.project.xml
+msgid "Edit"
+msgstr "Modifier"
+
+#: ./configure.zcml:25
+msgid "Installs the iuem20.project add-on."
+msgstr "Installation du module iuem20.project"
+
+#: ./interfaces.py:184
+msgid "Missions label"
+msgstr "Label du projet"
+
+#: ./interfaces.py:43
+msgid "One category per line"
+msgstr "Une seule catagorie par ligne"
+
+#: ./project.py:45
+msgid "Please correct errors"
+msgstr "Merci de corriger les erreurs"
+
+#: ./profiles/default/types/iuem20.project.xml
+msgid "Project"
+msgstr "Projet"
+
+#: ./interfaces.py:42
+msgid "Project categories"
+msgstr "Catégories du projet"
+
+#: ./project.py:41
+msgid "Save this project"
+msgstr "Enregistrer ce projet"
+
+#: ./interfaces.py:169
+msgid "Target"
+msgstr ""
+
+#: ./interfaces.py:60
+msgid "The start or end date is invalid"
+msgstr "La date de début ou la date de fin n'est pas correcte"
+
+#: ./configure.zcml:34
+msgid "Uninstalls the iuem20.project add-on."
+msgstr ""
+
+#: ./interfaces.py:174
+msgid "associated missions"
+msgstr "Missions associées à ce projet"
+
+#: ./interfaces.py:124
+msgid "contacts"
+msgstr "Contacts"
+
+#. Default: "View"
+#: ./profiles/default/types/iuem20.project.xml
+msgid "description"
+msgstr "Description"
+
+#: ./interfaces.py:181
+msgid "display related missions"
+msgstr "Afficher les missions de ce projet"
+
+#: ./interfaces.py:118
+msgid "end date for the project"
+msgstr "Date de fin du projet"
+
+#: ./interfaces.py:66
+msgid "general"
+msgstr "Général"
+
+#: ./interfaces.py:51
+msgid "iuem20 project Settings"
+msgstr "Configuration des projets"
+
+#: ./interfaces.py:52
+msgid "iuem20 project Settings Description"
+msgstr ""
+
+#: ./configure.zcml:25
+msgid "iuem20.project"
+msgstr ""
+
+#: ./configure.zcml:34
+msgid "iuem20.project (uninstall)"
+msgstr ""
+
+#: ./interfaces.py:92
+msgid "main photo"
+msgstr "Photo principale"
+
+#: ./interfaces.py:167
+msgid "other participants"
+msgstr "Autres participants"
+
+#: ./interfaces.py:163
+msgid "other participants label"
+msgstr "Titre pour la section des \"Autres participants\""
+
+#: ./interfaces.py:95
+msgid "picture author"
+msgstr "Auteur de la photo"
+
+#: ./interfaces.py:109
+msgid "presentation"
+msgstr "Présentation"
+
+#: ./interfaces.py:141
+msgid "primary contact"
+msgstr "Premier contact"
+
+#: ./interfaces.py:137
+msgid "primary contact label"
+msgstr "Label du premier contact"
+
+#: ./interfaces.py:86
+msgid "project categories"
+msgstr "Catégtories du projet"
+
+#: ./interfaces.py:104
+msgid "project descriptions"
+msgstr "Descriptions"
+
+#: ./interfaces.py:75
+msgid "project label"
+msgstr "Label du projet"
+
+#: ./interfaces.py:149
+msgid "second contact"
+msgstr "Deuxième contact"
+
+#: ./interfaces.py:145
+msgid "second contact label"
+msgstr "Lable du deuxième contact"
+
+#: ./interfaces.py:87
+msgid "select one or more"
+msgstr "Sélectionner une ou plusieurs"
+
+#: ./interfaces.py:113
+msgid "start date for the project"
+msgstr "Date de début du projet"
+
+#: ./interfaces.py:158
+msgid "third contact"
+msgstr "Troisième contact"
+
+#: ./interfaces.py:154
+msgid "third contact label"
+msgstr "Label du troisième contact"
+
+#: ./interfaces.py:79
+msgid "very short project description"
+msgstr "Très courte description du projet"

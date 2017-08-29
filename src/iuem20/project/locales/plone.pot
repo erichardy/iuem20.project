@@ -1,0 +1,158 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2017-08-25 08:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+#: ./interfaces.py:114
+msgid ""
+msgstr ""
+
+#: ./project.py:33
+msgid "Add a new project !"
+msgstr ""
+
+#: ./project.py:55
+msgid "Cancel this project"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Create data set Project"
+msgstr ""
+
+#: ./interfaces.py:184
+msgid "Missions label"
+msgstr ""
+
+#: ./interfaces.py:43
+msgid "One category per line"
+msgstr ""
+
+#: ./project.py:45
+msgid "Please correct errors"
+msgstr ""
+
+#: ./interfaces.py:42
+msgid "Project categories"
+msgstr ""
+
+#: ./project.py:41
+msgid "Save this project"
+msgstr ""
+
+#: ./interfaces.py:169
+msgid "Target"
+msgstr ""
+
+#: ./interfaces.py:60
+msgid "The start or end date is invalid"
+msgstr ""
+
+#: ./interfaces.py:174
+msgid "associated missions"
+msgstr ""
+
+#: ./interfaces.py:124
+msgid "contacts"
+msgstr ""
+
+#: ./interfaces.py:181
+msgid "display related missions"
+msgstr ""
+
+#: ./interfaces.py:118
+msgid "end date for the project"
+msgstr ""
+
+#: ./interfaces.py:66
+msgid "general"
+msgstr ""
+
+#: ./interfaces.py:51
+msgid "iuem20 project Settings"
+msgstr ""
+
+#: ./interfaces.py:52
+msgid "iuem20 project Settings Description"
+msgstr ""
+
+#: ./interfaces.py:92
+msgid "main photo"
+msgstr ""
+
+#: ./interfaces.py:167
+msgid "other participants"
+msgstr ""
+
+#: ./interfaces.py:163
+msgid "other participants label"
+msgstr ""
+
+#: ./interfaces.py:95
+msgid "picture author"
+msgstr ""
+
+#: ./interfaces.py:109
+msgid "presentation"
+msgstr ""
+
+#: ./interfaces.py:141
+msgid "primary contact"
+msgstr ""
+
+#: ./interfaces.py:137
+msgid "primary contact label"
+msgstr ""
+
+#: ./interfaces.py:86
+msgid "project categories"
+msgstr ""
+
+#: ./interfaces.py:104
+msgid "project descriptions"
+msgstr ""
+
+#: ./interfaces.py:75
+msgid "project label"
+msgstr ""
+
+#: ./interfaces.py:149
+msgid "second contact"
+msgstr ""
+
+#: ./interfaces.py:145
+msgid "second contact label"
+msgstr ""
+
+#: ./interfaces.py:87
+msgid "select one or more"
+msgstr ""
+
+#: ./interfaces.py:113
+msgid "start date for the project"
+msgstr ""
+
+#: ./interfaces.py:158
+msgid "third contact"
+msgstr ""
+
+#: ./interfaces.py:154
+msgid "third contact label"
+msgstr ""
+
+#: ./interfaces.py:79
+msgid "very short project description"
+msgstr ""
