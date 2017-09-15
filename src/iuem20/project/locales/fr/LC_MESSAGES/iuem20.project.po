@@ -32,7 +32,7 @@ msgstr "Installation du module iuem20.project"
 
 #: ./interfaces.py:184
 msgid "Missions label"
-msgstr "Label du projet"
+msgstr "Label des missions"
 
 #: ./interfaces.py:43
 msgid "One category per line"
