@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# from operator import attrgetter
+from iuem20.project import _
 from plone import api
 from plonetheme.iuem20.utils import sort_by_position
 from zope.publisher.browser import BrowserView
@@ -12,6 +12,8 @@ logger = logging.getLogger('iuem20.projects')
 
 
 class projectsView(BrowserView):
+
+    title = _(u'projects_view')
 
     def __init__(self, context, request):
         self.context = context

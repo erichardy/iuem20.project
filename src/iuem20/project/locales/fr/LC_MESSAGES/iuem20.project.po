@@ -147,6 +147,10 @@ msgstr "Descriptions"
 msgid "project label"
 msgstr "Label du projet"
 
+#: ./browser/projects_view.py:16
+msgid "projects_view"
+msgstr "Vue projets"
+
 #: ./interfaces.py:149
 msgid "second contact"
 msgstr "Deuxième contact"

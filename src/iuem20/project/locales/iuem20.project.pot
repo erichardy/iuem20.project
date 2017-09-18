@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-09-15 10:13+0000\n"
+"POT-Creation-Date: 2017-09-18 09:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,6 +152,10 @@ msgstr ""
 
 #: ./interfaces.py:75
 msgid "project label"
+msgstr ""
+
+#: ./browser/projects_view.py:16
+msgid "projects_view"
 msgstr ""
 
 #: ./interfaces.py:149
