@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import logging
-from zope.publisher.browser import BrowserView
 # from operator import attrgetter
 from plone import api
-
 from plonetheme.iuem20.utils import sort_by_position
+from zope.publisher.browser import BrowserView
+
+import logging
+
 
 logger = logging.getLogger('iuem20.projects')
 
