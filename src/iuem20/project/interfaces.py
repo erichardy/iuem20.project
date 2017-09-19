@@ -77,7 +77,7 @@ class IProject(model.Schema):
                      )
     dexteritytextindexer.searchable('description')
     description = TextLine(title=_(u'very short project description'),
-                           required=True,
+                           required=False,
                            )
     dexteritytextindexer.searchable('categories')
     directives.widget(
@@ -87,6 +87,7 @@ class IProject(model.Schema):
         description=_(u'select one or more'),
         value_type=schema.Choice(
             vocabulary=u'iuem20.projectcategories'),
+        required=False
         )
     image = NamedBlobImage(
         title=_(u'main photo'),

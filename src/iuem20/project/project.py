@@ -106,8 +106,8 @@ class project(Container):
                                      )
         missions = [mission.getObject() for mission in bmissions]
         if len(missions) == 0:
-            return False
-        return [mission.getObject() for mission in bmissions]
+            return []
+        return missions
 
     def sort_by_title(self, a, b):
         a_name = a.family_name + ' ' + a.first_name
@@ -125,7 +125,7 @@ class project(Container):
         """
         missions = self.getMissions()
         if not missions:
-            return False
+            return []
         p = []
         for mission in missions:
             p += mission.getChiefs()
@@ -163,6 +163,8 @@ class project(Container):
     def getProjectCategories(self):
         voc = 'iuem20.projectcategories'
         c = self
+        if len(c.categories) == 0:
+            return ''
         clist = [getTitleFromVoc(voc, category) for category in c.categories]
         cat = [ctg + '<br />' for ctg in clist
                if ctg != clist[-1]]

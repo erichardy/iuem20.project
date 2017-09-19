@@ -20,8 +20,8 @@
                    other_label context/other_label | nothing;
                    presentation python:context.getPresentation();
                    missions_label context/missions_label | nothing;
-                   display_missions context/display_missions;
                    missions python:context.getMissions();
+                   display_missions python:context.display_missions and len(missions) > 0;
                    gallery python:view.getGalleryImages();
                    feature_info_title string:${context/title};
                    feature_info_text string:${context/description};
@@ -144,7 +144,7 @@
     </div>
   </div>
 
-<section tal:condition="python:missions and display_missions">
+<section tal:condition="python:display_missions">
 	<div class="row bg-bright">
            <!----------thumbnails des missions---------->
            <h2 class="text-center" tal:content="string:${missions_label}">Missions associées / related missions</h2>
