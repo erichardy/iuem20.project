@@ -141,7 +141,7 @@
     <div class="row">
 		<div tal:condition="presentation"
             class="personnel-bio col-xs-12 col-md-10 col-md-offset-1">
-		  <span tal:content="structure string:${context/presentation/raw}">
+		  <span tal:content="structure python:context.presentation.output">
 		    presentation
 		  </span>
 	  </div>
