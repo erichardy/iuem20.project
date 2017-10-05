@@ -132,23 +132,20 @@
 	   </div>
     </div>
   </section>
-  <div class="bg-bright project-text">
-    <div class="full-width row">
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
+  <div class="bg-bright">
+    <div class="project-text">
     		<section id="viewlet-alt-languages" tal:content="structure provider:alt-languages" />
-    	</div>
     </div>
-    <div class="row">
-		<div tal:condition="presentation"
-            class="personnel-bio col-xs-12 col-md-10 col-md-offset-1">
-		  <span tal:content="structure python:context.presentation.output">
+    <div class="project-text">
+		<div tal:condition="presentation">
+		  <span tal:content="structure python:context.presentation.output_relative_to(view.context)">
 		    presentation
 		  </span>
 	  </div>
     </div>
   </div>
 
-<section tal:condition="python:display_missions">
+<div tal:condition="python:display_missions" class="project-missions">
 	<div class="row bg-bright">
            <!----------thumbnails des missions---------->
            <h2 class="text-center" tal:content="string:${missions_label}">Missions associées / related missions</h2>
@@ -169,7 +166,7 @@
            	</span>
           </div>
     </div>
-</section>
+</div>
 
 <span tal:condition="gallery">
      <metal:macro use-macro="context/iuem20_macros/macros/gallery-iuem20" />
